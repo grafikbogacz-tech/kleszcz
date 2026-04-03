@@ -7,160 +7,175 @@
 
 <!-- Strona główna -->
 <url>
-  <loc>https://schody.katowice.pl/</loc>
-  <lastmod>2026-03-28</lastmod>
+  <loc>https://www.schody.katowice.pl/</loc>
+  <lastmod>2026-04-03</lastmod>
   <priority>1.00</priority>
 </url>
 
 <!-- Główne podstrony -->
 <url>
-  <loc>https://schody.katowice.pl/oferta.html</loc>
-  <lastmod>2026-03-21</lastmod>
+  <loc>https://www.schody.katowice.pl/oferta.html</loc>
+  <lastmod>2026-04-03</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://schody.katowice.pl/galeria.html</loc>
-  <lastmod>2026-03-21</lastmod>
+  <loc>https://www.schody.katowice.pl/galeria.html</loc>
+  <lastmod>2026-04-03</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://schody.katowice.pl/wycena.html</loc>
-  <lastmod>2026-03-28</lastmod>
+  <loc>https://www.schody.katowice.pl/wycena.html</loc>
+  <lastmod>2026-04-03</lastmod>
   <priority>0.80</priority>
 </url>
 
 <!-- Strony miast -->
 <url>
-  <loc>https://schody.katowice.pl/schody-katowice.html</loc>
-  <lastmod>2026-03-28</lastmod>
+  <loc>https://www.schody.katowice.pl/schody-katowice.html</loc>
+  <lastmod>2026-04-03</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.schody.katowice.pl/schody-gliwice.html</loc>
+  <lastmod>2026-04-03</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.schody.katowice.pl/schody-zabrze.html</loc>
+  <lastmod>2026-04-03</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.schody.katowice.pl/schody-bytom.html</loc>
+  <lastmod>2026-04-03</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.schody.katowice.pl/schody-chorzow.html</loc>
+  <lastmod>2026-04-03</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.schody.katowice.pl/schody-dabrowa-gornicza.html</loc>
+  <lastmod>2026-04-03</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.schody.katowice.pl/schody-ruda-slaska.html</loc>
+  <lastmod>2026-04-03</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.schody.katowice.pl/schody-siemianowice-slaskie.html</loc>
+  <lastmod>2026-04-03</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.schody.katowice.pl/schody-tychy.html</loc>
+  <lastmod>2026-04-03</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.schody.katowice.pl/schody-sosnowiec.html</loc>
+  <lastmod>2026-04-03</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.schody.katowice.pl/schody-jaworzno.html</loc>
+  <lastmod>2026-04-03</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.schody.katowice.pl/schody-myslowice.html</loc>
+  <lastmod>2026-04-03</lastmod>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.schody.katowice.pl/schody-drewniane-myslowice.html</loc>
+  <lastmod>2026-04-03</lastmod>
   <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://schody.katowice.pl/schody-gliwice.html</loc>
-  <lastmod>2026-03-28</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://schody.katowice.pl/schody-zabrze.html</loc>
-  <lastmod>2026-03-28</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://schody.katowice.pl/schody-bytom.html</loc>
-  <lastmod>2026-03-28</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://schody.katowice.pl/schody-chorzow.html</loc>
-  <lastmod>2026-03-28</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://schody.katowice.pl/schody-dabrowa-gornicza.html</loc>
-  <lastmod>2026-03-28</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://schody.katowice.pl/schody-ruda-slaska.html</loc>
-  <lastmod>2026-03-28</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://schody.katowice.pl/schody-siemianowice-slaskie.html</loc>
-  <lastmod>2026-03-28</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://schody.katowice.pl/schody-tychy.html</loc>
-  <lastmod>2026-03-28</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://schody.katowice.pl/schody-sosnowiec.html</loc>
-  <lastmod>2026-03-28</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://schody.katowice.pl/schody-jaworzno.html</loc>
-  <lastmod>2026-03-28</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://schody.katowice.pl/schody-myslowice.html</loc>
-  <lastmod>2026-03-28</lastmod>
-  <priority>0.80</priority>
-</url>
-
-<!-- FAQ i pozostałe -->
-<url>
-  <loc>https://schody.katowice.pl/faq.html</loc>
-  <lastmod>2026-03-28</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://schody.katowice.pl/blog.html</loc>
-  <lastmod>2026-03-21</lastmod>
-  <priority>0.70</priority>
 </url>
 
 <!-- Artykuły blogowe -->
 <url>
-  <loc>https://schody.katowice.pl/blog-1.html</loc>
-  <lastmod>2026-03-21</lastmod>
-  <priority>0.64</priority>
+  <loc>https://www.schody.katowice.pl/blog.html</loc>
+  <lastmod>2026-04-03</lastmod>
+  <priority>0.70</priority>
 </url>
 <url>
-  <loc>https://schody.katowice.pl/blog-2.html</loc>
-  <lastmod>2026-03-21</lastmod>
-  <priority>0.64</priority>
+  <loc>https://www.schody.katowice.pl/bejcowanie-lakierowanie-czy-olejowanie.html</loc>
+  <lastmod>2026-04-03</lastmod>
+  <priority>0.65</priority>
 </url>
 <url>
-  <loc>https://schody.katowice.pl/blog-3.html</loc>
-  <lastmod>2026-03-21</lastmod>
-  <priority>0.64</priority>
+  <loc>https://www.schody.katowice.pl/jakie-drewno-na-schody.html</loc>
+  <lastmod>2026-04-03</lastmod>
+  <priority>0.65</priority>
 </url>
 <url>
-  <loc>https://schody.katowice.pl/blog-4.html</loc>
-  <lastmod>2026-03-21</lastmod>
-  <priority>0.64</priority>
+  <loc>https://www.schody.katowice.pl/proste-zabiegowe-czy-krecone.html</loc>
+  <lastmod>2026-04-03</lastmod>
+  <priority>0.65</priority>
 </url>
 <url>
-  <loc>https://schody.katowice.pl/blog-5.html</loc>
-  <lastmod>2026-03-21</lastmod>
-  <priority>0.64</priority>
+  <loc>https://www.schody.katowice.pl/schody-debowe-z-czarna-balustrada.html</loc>
+  <lastmod>2026-04-03</lastmod>
+  <priority>0.65</priority>
 </url>
 <url>
-  <loc>https://schody.katowice.pl/blog-6.html</loc>
-  <lastmod>2026-03-21</lastmod>
-  <priority>0.64</priority>
+  <loc>https://www.schody.katowice.pl/schody-debowe-ze-szklana-balustrada.html</loc>
+  <lastmod>2026-04-03</lastmod>
+  <priority>0.65</priority>
+</url>
+<url>
+  <loc>https://www.schody.katowice.pl/stalowe-balustrady-na-wymiar.html</loc>
+  <lastmod>2026-04-03</lastmod>
+  <priority>0.65</priority>
+</url>
+<url>
+  <loc>https://www.schody.katowice.pl/schody-drewniane-myslowice-na-co-uwazac.html</loc>
+  <lastmod>2026-04-03</lastmod>
+  <priority>0.65</priority>
 </url>
 
-<!-- O firmie, kontakt, schody -->
+<!-- FAQ i pozostałe -->
 <url>
-  <loc>https://schody.katowice.pl/onas.html</loc>
-  <lastmod>2026-03-21</lastmod>
+  <loc>https://www.schody.katowice.pl/faq.html</loc>
+  <lastmod>2026-04-03</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.schody.katowice.pl/schody.html</loc>
+  <lastmod>2026-04-03</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.schody.katowice.pl/schody_do_domu.html</loc>
+  <lastmod>2026-04-03</lastmod>
+  <priority>0.65</priority>
+</url>
+<url>
+  <loc>https://www.schody.katowice.pl/stalowe-balustrady-na-wymiar.html</loc>
+  <lastmod>2026-04-03</lastmod>
+  <priority>0.65</priority>
+</url>
+
+<!-- O firmie, kontakt -->
+<url>
+  <loc>https://www.schody.katowice.pl/onas.html</loc>
+  <lastmod>2026-04-03</lastmod>
   <priority>0.60</priority>
 </url>
 <url>
-  <loc>https://schody.katowice.pl/kontakt.html</loc>
-  <lastmod>2026-03-21</lastmod>
-  <priority>0.60</priority>
-</url>
-<url>
-  <loc>https://schody.katowice.pl/schody.html</loc>
-  <lastmod>2026-03-21</lastmod>
-  <priority>0.60</priority>
-</url>
-<url>
-  <loc>https://schody.katowice.pl/schody_do_domu.html</loc>
-  <lastmod>2026-03-21</lastmod>
+  <loc>https://www.schody.katowice.pl/kontakt.html</loc>
+  <lastmod>2026-04-03</lastmod>
   <priority>0.60</priority>
 </url>
 
 <!-- Polityka prywatności -->
 <url>
-  <loc>https://schody.katowice.pl/polityka.html</loc>
-  <lastmod>2026-03-21</lastmod>
+  <loc>https://www.schody.katowice.pl/polityka.html</loc>
+  <lastmod>2026-04-03</lastmod>
   <priority>0.30</priority>
 </url>
 
