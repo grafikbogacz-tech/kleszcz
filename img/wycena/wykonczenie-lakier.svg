@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <!-- Wood grain underneath -->
+    <pattern id="grain" x="0" y="0" width="400" height="300" patternUnits="userSpaceOnUse">
+      <path d="M 0 55 Q 120 50 200 57 Q 280 63 400 55" stroke="#B8956A" stroke-width="1" fill="none" opacity="0.4"/>
+      <path d="M 0 90 Q 100 85 180 91 Q 300 98 400 86" stroke="#B8956A" stroke-width="0.8" fill="none" opacity="0.3"/>
+      <path d="M 0 125 Q 150 120 220 127 Q 320 134 400 121" stroke="#B8956A" stroke-width="1.2" fill="none" opacity="0.35"/>
+      <path d="M 0 160 Q 80 155 160 162 Q 260 169 400 157" stroke="#B8956A" stroke-width="0.7" fill="none" opacity="0.3"/>
+      <path d="M 0 195 Q 130 190 210 197 Q 300 203 400 191" stroke="#B8956A" stroke-width="1" fill="none" opacity="0.35"/>
+    </pattern>
+    <!-- Lacquer sheen overlay - multiple semi-transparent layers -->
+    <linearGradient id="sheen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="30%"  stop-color="#e8f4f8" stop-opacity="0.3"/>
+      <stop offset="60%"  stop-color="#ffffff" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#c8e4f0" stop-opacity="0.25"/>
+    </linearGradient>
+    <linearGradient id="sheen2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0.4"/>
+      <stop offset="50%"  stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#ddeef6" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Wood base -->
+  <rect width="400" height="300" fill="#C4935C"/>
+  <rect width="400" height="300" fill="url(#grain)"/>
+
+  <!-- Lacquer layers (semi-transparent blue-tinted overlays) -->
+  <rect width="400" height="300" fill="#d8eef8" opacity="0.45"/>
+  <rect width="400" height="300" fill="url(#sheen)"/>
+  <rect width="400" height="300" fill="url(#sheen2)"/>
+
+  <!-- Specular highlight (bright streak across surface) -->
+  <ellipse cx="160" cy="100" rx="180" ry="28" fill="white" opacity="0.35" transform="rotate(-12 160 100)"/>
+  <ellipse cx="240" cy="180" rx="100" ry="14" fill="white" opacity="0.18" transform="rotate(-12 240 180)"/>
+
+  <!-- Edge highlight (top and left) -->
+  <rect width="400" height="3" fill="rgba(255,255,255,0.5)"/>
+  <rect width="3" height="300" fill="rgba(255,255,255,0.3)"/>
+
+  <!-- Bottom label -->
+  <rect y="240" width="400" height="60" fill="rgba(0,0,0,0.42)"/>
+  <text x="200" y="263" font-family="'Oswald', Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.7)" text-anchor="middle" letter-spacing="2" font-weight="300">WYKOŃCZENIE</text>
+  <text x="200" y="286" font-family="'Oswald', Arial, sans-serif" font-size="18" fill="#ffffff" text-anchor="middle" letter-spacing="1" font-weight="400">Lakier</text>
+</svg>
