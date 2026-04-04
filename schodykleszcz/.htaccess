@@ -7,6 +7,20 @@ Redirect 301 /blog-3.html /schody-debowe-ze-szklana-balustrada.html
 Redirect 301 /blog-5.html /bejcowanie-lakierowanie-czy-olejowanie.html
 Redirect 301 /blog-4.html /proste-zabiegowe-czy-krecone.html
 Redirect 301 /blog-6.html /biala-kuchnia-z-drewnem.html
+
+# Przekierowania 301 – nowy schemat URL miast /schody-drewniane-[miasto].html
+Redirect 301 /schody-bytom.html /schody-drewniane-bytom.html
+Redirect 301 /schody-chorzow.html /schody-drewniane-chorzow.html
+Redirect 301 /schody-dabrowa-gornicza.html /schody-drewniane-dabrowa-gornicza.html
+Redirect 301 /schody-gliwice.html /schody-drewniane-gliwice.html
+Redirect 301 /schody-jaworzno.html /schody-drewniane-jaworzno.html
+Redirect 301 /schody-katowice.html /schody-drewniane-katowice.html
+Redirect 301 /schody-myslowice.html /schody-drewniane-myslowice.html
+Redirect 301 /schody-ruda-slaska.html /schody-drewniane-ruda-slaska.html
+Redirect 301 /schody-siemianowice-slaskie.html /schody-drewniane-siemianowice-slaskie.html
+Redirect 301 /schody-sosnowiec.html /schody-drewniane-sosnowiec.html
+Redirect 301 /schody-tychy.html /schody-drewniane-tychy.html
+Redirect 301 /schody-zabrze.html /schody-drewniane-zabrze.html
 ### H88_WAF_START - Do not remove this line, WAF plugin will automatically update it
 php_value auto_prepend_file /var/www/html/waf/waf.php
 ### H88_WAF_STOP
