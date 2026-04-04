@@ -253,8 +253,9 @@ ul{list-style-type: none;}
 
 /* section-title-2 - tytuł sekcji z linią */
 .section-title-2 { margin-bottom: 50px; }
-.section-title-2 h1, .section-title-2 h2 { margin-bottom: 0; font-weight: 400; color: #005117; }
-.section-title-2 p { margin-bottom: 0; font-size: 14px; color: #888; }
+.section-title-2 h1 { font-size: 40px; font-weight: 500; line-height: 40px; margin-bottom: 0; color: #005117; }
+.section-title-2 h2 { font-size: 40px; font-weight: 500; line-height: 40px; margin-bottom: 0; color: #005117; }
+.section-title-2 p { margin-bottom: 0; font-size: 16px; color: #888; }
 .section-title-2 .title-line { padding: 18px 0 12px; }
 .section-title-2 .title-line:before { background: #005117; content: ""; display: block; height: 2px; margin: 0 auto; width: 80px; }
 /* section-title-2 */
