@@ -1,6 +1,0 @@
-User-agent: *
-Disallow: /send_wycena.php
-Disallow: /send_mail.php
-Disallow: /import.php
-
-Sitemap: https://www.schody.katowice.pl/sitemap.xml
