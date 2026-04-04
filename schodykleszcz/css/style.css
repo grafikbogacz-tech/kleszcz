@@ -93,7 +93,7 @@ input[type='number'] {
     -moz-appearance: textfield;
 }
 a, a:link, a:visited, a:active, a:hover{cursor: pointer; text-decoration: none; outline: none;}
-body{font-family: 'PT Sans', sans-serif; font-weight: 400; font-size: 14px; line-height: 1.7; color: #333;}
+body{font-family: 'Open Sans', sans-serif; font-weight: 400; font-size: 14px; line-height: 1.7; color: #333;}
 body:not(.loaded) *{-webkit-transition: none !important; transition: none !important;}
 ul{list-style-type: none;}
 
