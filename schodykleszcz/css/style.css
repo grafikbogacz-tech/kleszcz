@@ -251,6 +251,14 @@ ul{list-style-type: none;}
 }
 /*buttons*/
 
+/* section-title-2 - tytuł sekcji z linią */
+.section-title-2 { margin-bottom: 50px; }
+.section-title-2 h1, .section-title-2 h2 { margin-bottom: 0; font-weight: 400; color: #005117; }
+.section-title-2 p { margin-bottom: 0; font-size: 14px; color: #888; }
+.section-title-2 .title-line { padding: 18px 0 12px; }
+.section-title-2 .title-line:before { background: #005117; content: ""; display: block; height: 2px; margin: 0 auto; width: 80px; }
+/* section-title-2 */
+
 /* btn-icon - przycisk z ikonką po prawej */
 .btn-icon { display: inline-block; overflow: hidden; border-radius: 3px; background: #005117; color: #fff; font-size: 14px; text-decoration: none; position: relative; }
 .btn-icon span { display: block; float: left; padding: 12px 20px; color: #fff; font-family: 'Lato', sans-serif; font-weight: 400; text-transform: uppercase; letter-spacing: 0.05em; }
