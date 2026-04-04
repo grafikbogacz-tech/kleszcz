@@ -1901,6 +1901,9 @@ _:-ms-fullscreen, :root .bloom.index03 .quote .quote-nav.active{opacity: 1;}
     color: #005117;
 }
 
+.footer-city-link { color: rgba(255,255,255,0.6); font-size:13px; text-decoration:none; transition: color 0.2s ease; }
+.footer-city-link:hover { color: #fff; }
+
 /* Ikony w kontakcie */
 .footer-icon {
     display: inline-block;
