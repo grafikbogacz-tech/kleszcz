@@ -444,6 +444,9 @@ article{position: relative; float: left; width: 100%;}
 /*background*/
 .bg{position:absolute; left:0px; top:0px; width:100%; height:100%; overflow:hidden; background-position: 50% 50%; background-repeat: no-repeat; background-size: cover; background-attachment:scroll;}
 .bg.fix{background-attachment: fixed;}
+@media (max-width: 991px) {
+    .bg.fix { background-attachment: scroll; }
+}
 .bg-layer-5{position:absolute; left:0px; top:0px; width:100%; height:100%; background:rgba(0,0,0,0.5);}
 .bg-layer-6{position:absolute; left:0px; top:0px; width:100%; height:100%; background:rgba(0,0,0,0.6);}
 .clip{clip: rect(auto, auto, auto, auto); height: 100%; position: absolute; width: 100%; left: 0px; top: 0px;}
