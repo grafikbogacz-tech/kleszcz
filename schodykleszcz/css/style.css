@@ -1901,8 +1901,10 @@ _:-ms-fullscreen, :root .bloom.index03 .quote .quote-nav.active{opacity: 1;}
     color: #005117;
 }
 
-.footer-city-link { color: rgba(255,255,255,0.6); font-size:13px; text-decoration:none; transition: color 0.2s ease; }
-.footer-city-link:hover { color: #fff; }
+.footer-cities { display:flex; flex-wrap:wrap; gap:4px 10px; }
+.footer-city-link { color: #fff; font-size:13px; text-decoration:none; transition: color 0.2s ease; }
+.footer-city-link:hover { color: rgba(255,255,255,0.7); }
+@media (max-width: 767px) { .footer-cities { justify-content:center; } }
 
 /* Ikony w kontakcie */
 .footer-icon {
