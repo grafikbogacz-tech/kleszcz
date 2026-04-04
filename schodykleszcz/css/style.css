@@ -230,20 +230,19 @@ ul{list-style-type: none;}
 
 /*buttons*/
 .btn-wrap{position: relative; display: inline-block;}
-.btn-1{position: relative; float: left; overflow: hidden; background: transparent; color: #222; font-size: 14px; line-height: 1; font-weight: 400; text-transform: uppercase; letter-spacing: 0.05em; cursor: pointer; border: 1px solid #222; border-radius: 3px; padding: 0; transition: all 0.3s ease-out;}
-.btn-1 span{display: block; float: left; position: relative; z-index: 2; padding: 12px 22px; color: inherit; cursor: pointer;}
-.btn-1:after{background: #222; content: ""; height: 100%; right: 0; position: absolute; top: 0; width: 0; z-index: 1; transition: all 0.3s ease-out;}
-.btn-2{position: relative; float: left; overflow: hidden; background: #005117; color: #fff; font-size: 14px; line-height: 1; font-weight: 400; text-transform: uppercase; letter-spacing: 0.05em; cursor: pointer; border: 0; border-radius: 3px; padding: 0; transition: all 0.3s ease-out;}
-.btn-2 span{display: block; float: left; position: relative; z-index: 2; padding: 12px 22px; color: #fff; cursor: pointer;}
-.btn-2:after{background: rgba(0,0,0,0.15); content: ""; height: 100%; right: 0; position: absolute; top: 0; width: 0; z-index: 1; transition: all 0.3s ease-out;}
+.btn-1{position: relative; float: left; padding: 15px 32px; background: transparent; color: #222; font-size: 13px; line-height: 1; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; cursor: pointer; border: 2px solid #222; border-radius: 3px; transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease;}
+.btn-1 span{position: relative; color: inherit; cursor: pointer;}
+.btn-2{position: relative; float: left; padding: 15px 32px; background: #005117; color: #fff; font-size: 15px; line-height: 1; font-weight: 500; text-transform: uppercase; letter-spacing: 0.08em; cursor: pointer; border: 2px solid #005117; border-radius: 3px; transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease;}
+.btn-2 span{position: relative; color: inherit; cursor: pointer;}
 
 .btn-play{position: absolute; left: 50%; top: 50%; width: 84px; height: 54px; text-align: center; background-color: #005117; cursor: pointer; color: #fff; margin-left: -42px; margin-top: -27px; outline: 3px solid rgba(223, 205, 80, 0.5); box-sizing: border-box;}
 .btn-play i{line-height: 54px;}
 
 @media (min-width: 1200px) {
-    .btn-1:hover:after{width: 100%;}
+    .btn-1:hover{background: #222; color: #fff; border-color: #222;}
     .btn-1:hover span{color: #fff;}
-    .btn-2:hover:after{width: 100%;}
+    .btn-2:hover{background: #003d0f; border-color: #003d0f; color: #fff;}
+    .btn-2:hover span{color: #fff;}
     .btn-play:hover{background-color: rgba(255,255,255,0.15); color: #fff;}
 }
 /*buttons*/
