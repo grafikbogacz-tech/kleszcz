@@ -1906,6 +1906,19 @@ footer .footer-cities a, footer .footer-city-link { color: #4caf72 !important; f
 footer .footer-cities a:hover, footer .footer-city-link:hover { color: #fff !important; }
 @media (max-width: 767px) { .footer-cities { justify-content:center; } }
 
+/* Tablet – wyrównanie do lewej w nowej stopce */
+@media (min-width: 768px) and (max-width: 991px) {
+    .footer-row .footer-col {
+        text-align: left;
+    }
+    .footer-cities {
+        justify-content: flex-start;
+    }
+    .footer-list a {
+        display: inline;
+    }
+}
+
 /* Ikony w kontakcie */
 .footer-icon {
     display: inline-block;
