@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>401 – Brak autoryzacji – Schody Łukasz Kleszcz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            font-family: 'PT Sans', sans-serif;
+            background-color: #f7f7f7;
+            color: #989898;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .error-header {
+            background-color: #222;
+            padding: 18px 40px;
+            display: flex;
+            align-items: center;
+        }
+
+        .error-header a img {
+            display: block;
+        }
+
+        .green-bar {
+            height: 4px;
+            background-color: #005117;
+        }
+
+        .error-body {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 70px 20px;
+        }
+
+        .error-inner {
+            max-width: 580px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .error-code {
+            font-family: 'Oswald', sans-serif;
+            font-size: 140px;
+            font-weight: 700;
+            line-height: 1;
+            color: #005117;
+            letter-spacing: -4px;
+            display: inline-block;
+            position: relative;
+        }
+
+        .error-code::after {
+            content: "";
+            display: block;
+            width: 60px;
+            height: 3px;
+            background-color: #222;
+            margin: 14px auto 0;
+        }
+
+        .error-title {
+            font-family: 'Oswald', sans-serif;
+            font-size: 24px;
+            font-weight: 500;
+            color: #222;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin: 28px 0 18px;
+        }
+
+        .error-desc {
+            font-size: 15px;
+            line-height: 1.75;
+            color: #989898;
+            margin-bottom: 38px;
+            text-align: justify;
+            hyphens: auto;
+        }
+
+        .btn-home {
+            display: inline-block;
+            padding: 14px 40px;
+            background-color: #005117;
+            color: #fff;
+            font-family: 'Oswald', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            text-decoration: none;
+            transition: background-color 0.25s ease;
+        }
+
+        .btn-home:hover {
+            background-color: #003d0f;
+            color: #fff;
+        }
+
+        .error-footer {
+            background-color: #222;
+            text-align: center;
+            padding: 18px 20px;
+            font-family: 'PT Sans', sans-serif;
+            font-size: 12px;
+            color: rgba(255, 255, 255, 0.4);
+        }
+
+        .error-footer a {
+            color: rgba(255, 255, 255, 0.6);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .error-footer a:hover {
+            color: #005117;
+        }
+
+        @media (max-width: 480px) {
+            .error-code {
+                font-size: 100px;
+            }
+
+            .error-header {
+                padding: 14px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="error-header">
+        <a href="index.html">
+            <img src="img/logo-white.png" alt="Schody Łukasz Kleszcz" width="80" height="80" />
+        </a>
+    </header>
+
+    <div class="green-bar"></div>
+
+    <div class="error-body">
+        <div class="error-inner">
+            <div class="error-code">401</div>
+            <h1 class="error-title">Brak autoryzacji</h1>
+            <p class="error-desc">Nie masz uprawnień, aby wyświetlić tę stronę. Dostęp do zasobu wymaga uwierzytelnienia. Jeśli uważasz, że to błąd, skontaktuj się z administratorem serwisu.</p>
+            <a href="index.html" class="btn-home">Wróć na stronę główną</a>
+        </div>
+    </div>
+
+    <footer class="error-footer">
+        &copy; 2019&ndash;2025 Schody Łukasz Kleszcz. Wszelkie prawa zastrzeżone. &nbsp;|&nbsp;
+        <a href="kontakt.html">Kontakt</a>
+    </footer>
+
+</body>
+</html>

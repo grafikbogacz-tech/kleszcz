@@ -1,0 +1,14 @@
+AddHandler application/x-httpd-php73 php
+
+# Przekierowania 301 – zmiana nazw plików blogowych
+Redirect 301 /blog-1.html /schody-debowe-z-czarna-balustrada.html
+Redirect 301 /blog-2.html /stalowe-balustrady-na-wymiar.html
+Redirect 301 /blog-3.html /schody-debowe-ze-szklana-balustrada.html
+Redirect 301 /blog-5.html /bejcowanie-lakierowanie-czy-olejowanie.html
+Redirect 301 /blog-4.html /proste-zabiegowe-czy-krecone.html
+Redirect 301 /blog-6.html /biala-kuchnia-z-drewnem.html
+### H88_WAF_START - Do not remove this line, WAF plugin will automatically update it
+php_value auto_prepend_file /var/www/html/waf/waf.php
+### H88_WAF_STOP
+SecRuleEngine Off
+SecRequestBodyAccess Off

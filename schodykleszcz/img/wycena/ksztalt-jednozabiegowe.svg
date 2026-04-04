@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320">
+  <rect width="320" height="320" fill="#ffffff"/>
+
+  <!-- L-shape outer boundary -->
+  <!-- Horizontal arm: x=20..290, y=20..110  -->
+  <!-- Vertical arm:   x=190..290, y=110..290 -->
+  <path d="M 20,20 L 290,20 L 290,290 L 190,290 L 190,110 L 20,110 Z"
+        fill="none" stroke="#8aaab8" stroke-width="1.8" stroke-linejoin="miter"/>
+
+  <!-- Horizontal flight step lines (vertical dividers, x=20..190, y=20..110) -->
+  <!-- 9 steps = 8 internal vertical lines, spacing = 170/9 ≈ 18.9 -->
+  <g stroke="#a8c2ce" stroke-width="1">
+    <line x1="39"  y1="20" x2="39"  y2="110"/>
+    <line x1="58"  y1="20" x2="58"  y2="110"/>
+    <line x1="77"  y1="20" x2="77"  y2="110"/>
+    <line x1="96"  y1="20" x2="96"  y2="110"/>
+    <line x1="115" y1="20" x2="115" y2="110"/>
+    <line x1="134" y1="20" x2="134" y2="110"/>
+    <line x1="153" y1="20" x2="153" y2="110"/>
+    <line x1="172" y1="20" x2="172" y2="110"/>
+  </g>
+
+  <!-- Vertical flight step lines (horizontal dividers, x=190..290, y=110..290) -->
+  <!-- 9 steps = 8 internal horizontal lines, spacing = 180/9 = 20 -->
+  <g stroke="#a8c2ce" stroke-width="1">
+    <line x1="190" y1="130" x2="290" y2="130"/>
+    <line x1="190" y1="150" x2="290" y2="150"/>
+    <line x1="190" y1="170" x2="290" y2="170"/>
+    <line x1="190" y1="190" x2="290" y2="190"/>
+    <line x1="190" y1="210" x2="290" y2="210"/>
+    <line x1="190" y1="230" x2="290" y2="230"/>
+    <line x1="190" y1="250" x2="290" y2="250"/>
+    <line x1="190" y1="270" x2="290" y2="270"/>
+  </g>
+
+  <!-- Winder corner – radiating lines from inner corner (190,110) -->
+  <!-- Corner square area: x=190..290, y=20..110 (100×90) -->
+  <!-- Lines from (190,110) at angles through the corner area -->
+  <g stroke="#a8c2ce" stroke-width="1">
+    <!-- 0°  = straight up -->
+    <line x1="190" y1="110" x2="190" y2="20"/>
+    <!-- ~27° -->
+    <line x1="190" y1="110" x2="235" y2="20"/>
+    <!-- ~45° -->
+    <line x1="190" y1="110" x2="270" y2="30"/>
+    <!-- ~63° -->
+    <line x1="190" y1="110" x2="290" y2="55"/>
+    <!-- 90° = straight right -->
+    <line x1="190" y1="110" x2="290" y2="110"/>
+  </g>
+
+  <!-- Winder arcs centred at (190,110) -->
+  <path d="M 190,40  A 70,70 0 0 1 264,110" fill="none" stroke="#8aaab8" stroke-width="1.2"/>
+  <path d="M 190,68  A 42,42 0 0 1 234,110" fill="none" stroke="#8aaab8" stroke-width="1"/>
+
+  <!-- Direction arrow at start (top-left of horizontal arm) -->
+  <line x1="28" y1="65" x2="55" y2="65" stroke="#8aaab8" stroke-width="1.2"/>
+  <polygon points="25,65 34,60 34,70" fill="#8aaab8"/>
+
+  <!-- Corner dots -->
+  <circle cx="20"  cy="20"  r="2.5" fill="#8aaab8"/>
+  <circle cx="290" cy="20"  r="2.5" fill="#8aaab8"/>
+  <circle cx="290" cy="290" r="2.5" fill="#8aaab8"/>
+  <circle cx="190" cy="290" r="2.5" fill="#8aaab8"/>
+  <circle cx="20"  cy="110" r="2.5" fill="#8aaab8"/>
+
+  <!-- Label -->
+  <text x="160" y="310" font-family="'Oswald', Arial, sans-serif" font-size="13" fill="#005117" text-anchor="middle" letter-spacing="2" font-weight="500">JEDNOZABIEGOWE</text>
+</svg>
