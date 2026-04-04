@@ -261,16 +261,16 @@ ul{list-style-type: none;}
 /* section-title-2 */
 
 /* btn-icon - przycisk z ikonką po prawej */
-.btn-icon { display: inline-flex; align-items: stretch; overflow: hidden; border-radius: 3px; background: #005117; color: #fff; font-size: 14px; text-decoration: none; position: relative; }
-.btn-icon span { display: block; padding: 12px 20px; color: #fff; font-family: 'Lato', sans-serif; font-weight: 400; text-transform: uppercase; letter-spacing: 0.05em; white-space: nowrap; }
-.btn-icon i { display: flex; align-items: center; padding: 12px 14px; background: rgba(0,0,0,0.15); color: #fff; font-size: 15px; }
+.btn-icon { display: inline-flex; align-items: stretch; overflow: hidden; border-radius: 3px; background: #005117; color: #fff; font-size: 12px; text-decoration: none; position: relative; }
+.btn-icon span { display: block; padding: 8px 14px; color: #fff; font-family: 'Lato', sans-serif; font-weight: 400; text-transform: uppercase; letter-spacing: 0.05em; white-space: nowrap; }
+.btn-icon i { display: flex; align-items: center; padding: 8px 10px; background: rgba(0,0,0,0.15); color: #fff; font-size: 13px; }
 .btn-icon:after { background: rgba(0,0,0,0.12); content: ""; height: 100%; right: 0; position: absolute; top: 0; width: 0; transition: all 0.3s ease-out; }
 .btn-icon:hover:after { width: 100%; }
 .btn-icon:hover { color: #fff; text-decoration: none; }
 /* btn-icon-outline - wersja w negatywie */
-.btn-icon-outline { display: inline-flex; align-items: stretch; overflow: hidden; border-radius: 3px; background: transparent; color: #005117; font-size: 14px; text-decoration: none; border: 2px solid #005117; transition: background 0.25s ease, color 0.25s ease; }
-.btn-icon-outline span { display: block; padding: 10px 18px; color: inherit; font-family: 'Lato', sans-serif; font-weight: 400; text-transform: uppercase; letter-spacing: 0.05em; white-space: nowrap; }
-.btn-icon-outline i { display: flex; align-items: center; padding: 10px 12px; color: inherit; font-size: 15px; border-left: 1px solid rgba(0,81,23,0.3); transition: border-color 0.25s ease; }
+.btn-icon-outline { display: inline-flex; align-items: stretch; overflow: hidden; border-radius: 3px; background: transparent; color: #005117; font-size: 12px; text-decoration: none; border: 2px solid #005117; transition: background 0.25s ease, color 0.25s ease; }
+.btn-icon-outline span { display: block; padding: 6px 14px; color: inherit; font-family: 'Lato', sans-serif; font-weight: 400; text-transform: uppercase; letter-spacing: 0.05em; white-space: nowrap; }
+.btn-icon-outline i { display: flex; align-items: center; padding: 6px 10px; color: inherit; font-size: 13px; border-left: 1px solid rgba(0,81,23,0.3); transition: border-color 0.25s ease; }
 .btn-icon-outline:hover { background: #005117; color: #fff; text-decoration: none; }
 .btn-icon-outline:hover i { border-color: rgba(255,255,255,0.2); }
 /* btn-icon */
