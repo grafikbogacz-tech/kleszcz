@@ -1,0 +1,68 @@
+/*
+
+Template:  The Corps - Responsive Multi-purpose HTML5 Template
+Author: potenzaglobalsolutions.com
+Version: 2.1
+Design and Developed by: potenzaglobalsolutions.com
+
+NOTE: This is color stylesheet of Color Scheme.
+
+*/
+
+/*************************
+		General
+*************************/
+/** selection **/
+*::-moz-selection { background: #16a7a8; color: #fff; text-shadow: none; }
+::-moz-selection { background: #16a7a8; color: #fff; text-shadow: none; }
+::selection { background: #16a7a8; color: #fff; text-shadow: none; }
+
+/** buttton **/
+a.button { background-color: #1ab0b1; }
+a.button.button-white { color: #1ab0b1; }
+a.button.button-white i { color: #1ab0b1; }
+a.button.button-white span { color: #1ab0b1; }
+a.button.button-grey {  color: #1ab0b1; }
+a.button.button-grey i { color: #1ab0b1; }
+a.button.button-grey span { color: #1ab0b1; }
+a.button.button-black { color: #1ab0b1; }
+a.button-border span { color: #1ab0b1;  border:1px solid #1ab0b1; }
+a.button-border span:hover { border-color: #1ab0b1; }
+a.button-border-white span:hover { color: #1ab0b1; }
+button.button, .navbar-default .navbar-toggle .icon-bar, .navbar-default .navbar-toggle:hover>.icon-bar { background-color: #1ab0b1; }
+
+
+ #back-to-top .top { background: #1ab0b1; }
+ 
+/** tooltip **/
+.tooltip:after, [data-tooltip]:after{ background-color: #1ab0b1; }
+.tooltip:before,.tooltip-top:before{ border-color: #1ab0b1; }
+[data-tooltip]:before, .tooltip::before, .tooltip-top::before{  border-top-color: #1ab0b1;}
+
+  
+ /*important */
+  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { color: #1ab0b1 !important; }
+.skills .jqbar.vertical .bar-level { background: #1ab0b1 !important; }
+
+/*************************
+		 Background
+*************************/
+/** Color BG **/
+.blue-bg, .section-title .title-line::before, .section-title .title-line::after, .team .team-overlay .info, .isotope-filters button.active, .isotope-filters button:hover, .portfolio .portfolio-item, .blog-box .border, .owl-carousel-2 .owl-nav i:hover, .footer-widget-social a i, .portfolio-info, .portfolio-item .portfolio-overlay a:hover { background: #1ab0b1;}
+
+
+/*************************
+		 Color
+*************************/
+/** Color **/
+ a:hover, .text-blue, #menu.navbar-default .navbar-nav li a:hover, span.tooltip-content-2, ul.who-we-are-about i, .feature-1-title span, .feature-2 span, .team .team-overlay .social li a:hover, a.blog-btn, .blog-info i, .contact-form .section-field i, .contact-info .contact-add i, .footer-widget a, .footer-widget a:hover, .entry-title i, .portfolio-item .portfolio-overlay span a:hover { color:#1ab0b1; }
+ 
+ /*************************
+		 Border
+*************************/
+/** 1px **/
+ .isotope-filters button.active, .isotope-filters button:hover, input:focus, textarea:focus, .news-letter .section-field input:focus { border-color: #1ab0b1; }
+
+ a.button-border span:hover { box-shadow: -200px 0 0 #1ab0b1 inset; }
+
+ 
