@@ -1541,6 +1541,35 @@ _:-ms-fullscreen, :root .bloom.index03 .quote .quote-nav.active{opacity: 1;}
 .pagination-on-slider .swiper-pagination {position: absolute; left: 0px; bottom: 20px; width: 100%;}
 .grid-item.w-25 {width: 25%;}
 .grid-item.grid-item-full {padding: 0 15px 30px;}
+
+/* Galeria – jednolite proporcje zdjęć + placeholder ładowania */
+.grid-item.grid-item-full > a.lightbox {
+    display: block;
+    position: relative;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    background-color: #ece8e3;
+    margin-bottom: 15px;
+    float: none;
+    height: auto;
+}
+.grid-item.grid-item-full > a.lightbox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    float: none;
+    transform: none;
+    transition: transform 0.3s ease;
+}
+@media (min-width: 1200px) {
+    .grid-item.grid-item-full > a.lightbox:hover img {
+        transform: scale(1.05);
+    }
+}
 .detail-block {position: relative; width: 100%; }
 .detail-block img {width: 100%; height: auto; display: block;}
 
