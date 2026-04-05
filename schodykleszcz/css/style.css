@@ -1527,8 +1527,8 @@ _:-ms-fullscreen, :root .bloom.index03 .quote .quote-nav.active{opacity: 1;}
 .simple-text p {font-size: 15px; line-height: 24px;}
 .simple-text.sm p {font-size: 13px; line-height: 24px;}
 
-.full-height-banner {position: relative; height: 80vh; min-height: 500px;}
-.full-height-banner.hero-short {height: 420px; min-height: 300px;}
+.full-height-banner {position: relative; height: 53vh; min-height: 330px;}
+.full-height-banner.hero-short {height: 280px; min-height: 200px;}
 .sm-sepp.h1:before {width: 50px; background: #fff; left: 50%; margin-left: -25px;}
 .lh-36 {line-height: 36px;}
 .full-height-banner .vertical-align {margin-top: 60px;}
@@ -1675,7 +1675,7 @@ _:-ms-fullscreen, :root .bloom.index03 .quote .quote-nav.active{opacity: 1;}
     .custom-container {padding: 0px;}
 }
 @media (max-width: 1200px) {
-    .full-height-banner {height: auto; min-height: 550px;}
+    .full-height-banner {height: auto; min-height: 370px;}
     .full-height-banner .vertical-align {margin-top: 30px;}
     .detail-block .image {height: 500px;}
     .detail-nav-link {height: 300px;}
@@ -2854,7 +2854,7 @@ header ul.header-menu {
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 .article-hero {
     position: relative;
-    height: 460px;
+    height: 307px;
     overflow: hidden;
 }
 .article-hero__img { width: 100%; height: 100%; object-fit: cover; display: block; }
@@ -3035,7 +3035,7 @@ header ul.header-menu {
 .related-posts { padding: 70px 0 90px 0; background: #f8f8f8; }
 .related-posts__title { text-align: center; margin-bottom: 50px; }
 @media (max-width: 767px) {
-    .article-hero { height: 300px; }
+    .article-hero { height: 200px; }
     .article-hero__title { font-size: 24px; }
     .article-body { padding: 40px 0 60px 0; }
     .article-author-box { flex-direction: column; text-align: center; }
