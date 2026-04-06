@@ -3130,6 +3130,47 @@ header ul.header-menu {
 }
 /* ===== / PROJECT STORY + QUOTE ===== */
 
+/* ===== PROJECT CITIES ===== */
+.project-cities-section {
+    background: #fff;
+    padding: 52px 0;
+    text-align: center;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.project-cities-section__sub {
+    font-family: "PT Sans", sans-serif;
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 32px;
+}
+.project-cities-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.project-city {
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #444;
+    border: 1px solid #ddd;
+    padding: 8px 18px;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+.project-city:hover {
+    background: #005117;
+    color: #fff;
+    border-color: #005117;
+    text-decoration: none;
+}
+/* ===== / PROJECT CITIES ===== */
+
 /* ===== PROJECT SOLUTION ===== */
 .project-solution {
     background: #f8f8f8;
