@@ -3084,9 +3084,11 @@ header ul.header-menu {
 .article-author-box__info span { font-family: "PT Sans", sans-serif; font-size: 13px; color: #888; }
 /* ===== PROJECT BRIEF ===== */
 .project-brief {
+    background: #1a1a1a;
+}
+.project-brief__inner {
     display: flex;
     flex-wrap: wrap;
-    background: #1a1a1a;
 }
 .project-brief__col {
     flex: 1 1 25%;
