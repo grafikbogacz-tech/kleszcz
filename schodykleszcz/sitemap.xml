@@ -31,69 +31,64 @@
 
 <!-- Strony miast -->
 <url>
-  <loc>https://www.schody.katowice.pl/schody-katowice.html</loc>
+  <loc>https://www.schody.katowice.pl/schody-drewniane-katowice.html</loc>
   <lastmod>2026-04-03</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://www.schody.katowice.pl/schody-gliwice.html</loc>
+  <loc>https://www.schody.katowice.pl/schody-drewniane-gliwice.html</loc>
   <lastmod>2026-04-03</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://www.schody.katowice.pl/schody-zabrze.html</loc>
+  <loc>https://www.schody.katowice.pl/schody-drewniane-zabrze.html</loc>
   <lastmod>2026-04-03</lastmod>
   <priority>0.85</priority>
 </url>
 <url>
-  <loc>https://www.schody.katowice.pl/schody-bytom.html</loc>
+  <loc>https://www.schody.katowice.pl/schody-drewniane-bytom.html</loc>
   <lastmod>2026-04-03</lastmod>
   <priority>0.85</priority>
 </url>
 <url>
-  <loc>https://www.schody.katowice.pl/schody-chorzow.html</loc>
+  <loc>https://www.schody.katowice.pl/schody-drewniane-chorzow.html</loc>
   <lastmod>2026-04-03</lastmod>
   <priority>0.85</priority>
 </url>
 <url>
-  <loc>https://www.schody.katowice.pl/schody-dabrowa-gornicza.html</loc>
+  <loc>https://www.schody.katowice.pl/schody-drewniane-dabrowa-gornicza.html</loc>
   <lastmod>2026-04-03</lastmod>
   <priority>0.85</priority>
 </url>
 <url>
-  <loc>https://www.schody.katowice.pl/schody-ruda-slaska.html</loc>
+  <loc>https://www.schody.katowice.pl/schody-drewniane-ruda-slaska.html</loc>
   <lastmod>2026-04-03</lastmod>
   <priority>0.85</priority>
 </url>
 <url>
-  <loc>https://www.schody.katowice.pl/schody-siemianowice-slaskie.html</loc>
+  <loc>https://www.schody.katowice.pl/schody-drewniane-siemianowice-slaskie.html</loc>
   <lastmod>2026-04-03</lastmod>
   <priority>0.85</priority>
 </url>
 <url>
-  <loc>https://www.schody.katowice.pl/schody-tychy.html</loc>
+  <loc>https://www.schody.katowice.pl/schody-drewniane-tychy.html</loc>
   <lastmod>2026-04-03</lastmod>
   <priority>0.85</priority>
 </url>
 <url>
-  <loc>https://www.schody.katowice.pl/schody-sosnowiec.html</loc>
+  <loc>https://www.schody.katowice.pl/schody-drewniane-sosnowiec.html</loc>
   <lastmod>2026-04-03</lastmod>
   <priority>0.85</priority>
 </url>
 <url>
-  <loc>https://www.schody.katowice.pl/schody-jaworzno.html</loc>
-  <lastmod>2026-04-03</lastmod>
-  <priority>0.85</priority>
-</url>
-<url>
-  <loc>https://www.schody.katowice.pl/schody-myslowice.html</loc>
+  <loc>https://www.schody.katowice.pl/schody-drewniane-jaworzno.html</loc>
   <lastmod>2026-04-03</lastmod>
   <priority>0.85</priority>
 </url>
 <url>
   <loc>https://www.schody.katowice.pl/schody-drewniane-myslowice.html</loc>
   <lastmod>2026-04-03</lastmod>
-  <priority>0.80</priority>
+  <priority>0.85</priority>
 </url>
 
 <!-- Artykuły blogowe -->
@@ -151,11 +146,6 @@
 </url>
 <url>
   <loc>https://www.schody.katowice.pl/schody_do_domu.html</loc>
-  <lastmod>2026-04-03</lastmod>
-  <priority>0.65</priority>
-</url>
-<url>
-  <loc>https://www.schody.katowice.pl/stalowe-balustrady-na-wymiar.html</loc>
   <lastmod>2026-04-03</lastmod>
   <priority>0.65</priority>
 </url>
