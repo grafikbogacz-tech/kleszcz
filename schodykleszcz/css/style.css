@@ -3156,17 +3156,25 @@ header ul.header-menu {
 
 /* ===== PROJECT CITIES ===== */
 .project-cities-section {
-    background: #fff;
-    padding: 52px 0;
+    background-color: #1a1a1a;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 72px 0;
     text-align: center;
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee;
+    position: relative;
+}
+.project-cities-section__overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.58);
+    z-index: 1;
 }
 .project-cities-section__sub {
     font-family: "PT Sans", sans-serif;
-    font-size: 14px;
-    color: #999;
-    margin-bottom: 32px;
+    font-size: 15px;
+    color: rgba(255,255,255,0.75);
+    margin-bottom: 36px;
 }
 .project-cities-grid {
     display: flex;
@@ -3180,8 +3188,8 @@ header ul.header-menu {
     font-weight: 500;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #444;
-    border: 1px solid #ddd;
+    color: rgba(255,255,255,0.85);
+    border: 1px solid rgba(255,255,255,0.35);
     padding: 8px 18px;
     border-radius: 2px;
     text-decoration: none;
@@ -3192,6 +3200,10 @@ header ul.header-menu {
     color: #fff;
     border-color: #005117;
     text-decoration: none;
+}
+.project-cities-section .project-section-title:before,
+.project-cities-section .project-section-title:after {
+    background-color: #fff;
 }
 /* ===== / PROJECT CITIES ===== */
 
