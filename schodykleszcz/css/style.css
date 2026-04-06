@@ -3130,6 +3130,57 @@ header ul.header-menu {
 }
 /* ===== / PROJECT STORY + QUOTE ===== */
 
+/* ===== PROJECT SOLUTION ===== */
+.project-solution {
+    background: #f8f8f8;
+    padding: 56px 0;
+}
+.project-solution__lead {
+    font-family: "PT Sans", sans-serif;
+    font-size: 15px;
+    color: #666;
+    line-height: 1.85;
+    margin-bottom: 40px;
+    border-left: 3px solid #005117;
+    padding-left: 18px;
+}
+.project-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.project-card {
+    flex: 1 1 calc(25% - 20px);
+    background: #fff;
+    border-top: 3px solid #005117;
+    padding: 28px 22px;
+    text-align: center;
+}
+.project-card__icon {
+    font-size: 30px;
+    color: #005117;
+    margin-bottom: 14px;
+}
+.project-card__title {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+.project-card__desc {
+    font-family: "PT Sans", sans-serif;
+    font-size: 13px;
+    color: #777;
+    line-height: 1.7;
+}
+@media (max-width: 767px) {
+    .project-card { flex: 1 1 calc(50% - 10px); }
+}
+/* ===== / PROJECT SOLUTION ===== */
+
 /* ===== PROJECT BRIEF ===== */
 .project-brief {
     background: #1a1a1a;
