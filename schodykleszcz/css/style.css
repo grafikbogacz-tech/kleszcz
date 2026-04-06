@@ -3082,6 +3082,38 @@ header ul.header-menu {
 }
 .article-author-box__info strong { font-family: 'Lato', sans-serif; font-size: 16px; color: #222; display: block; margin-bottom: 4px; }
 .article-author-box__info span { font-family: "PT Sans", sans-serif; font-size: 13px; color: #888; }
+/* ===== PROJECT STORY + QUOTE ===== */
+.project-story p {
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    color: #444;
+    line-height: 1.9;
+    margin-bottom: 18px;
+}
+.project-quote {
+    border-left: 4px solid #005117;
+    margin: 36px 0 0;
+    padding: 20px 28px;
+    background: #f5faf6;
+    border-radius: 0 4px 4px 0;
+}
+.project-quote p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    color: #222;
+    line-height: 1.7;
+    margin: 0 0 10px;
+}
+.project-quote cite {
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    color: #005117;
+    font-style: normal;
+    letter-spacing: 0.04em;
+}
+/* ===== / PROJECT STORY + QUOTE ===== */
+
 /* ===== PROJECT BRIEF ===== */
 .project-brief {
     background: #1a1a1a;
