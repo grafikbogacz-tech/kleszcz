@@ -3159,7 +3159,7 @@ header ul.header-menu {
     background-color: #1a1a1a;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
     padding: 72px 0;
     text-align: center;
     position: relative;
@@ -3167,7 +3167,7 @@ header ul.header-menu {
 .project-cities-section__overlay {
     position: absolute;
     inset: 0;
-    background: rgba(0,0,0,0.58);
+    background: rgba(0,0,0,0.72);
     z-index: 1;
 }
 .project-cities-section__sub {
