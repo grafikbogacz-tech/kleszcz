@@ -3171,6 +3171,77 @@ header ul.header-menu {
 }
 /* ===== / PROJECT CITIES ===== */
 
+/* ===== PROJECT PROCESS ===== */
+.project-process {
+    background: #fff;
+    padding: 60px 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.project-process__sub {
+    font-family: "PT Sans", sans-serif;
+    font-size: 15px;
+    color: #888;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.project-steps {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.project-step {
+    flex: 1;
+    text-align: center;
+    padding: 0 16px;
+    max-width: 220px;
+}
+.project-step__num {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 2px solid #005117;
+    color: #005117;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 14px;
+}
+.project-step__icon {
+    font-size: 24px;
+    color: #222;
+    margin-bottom: 12px;
+}
+.project-step__title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #222;
+    margin: 0 0 10px;
+    border-bottom: none;
+    text-transform: none;
+    letter-spacing: 0;
+}
+.project-step__desc {
+    font-family: "PT Sans", sans-serif;
+    font-size: 13px;
+    color: #666;
+    line-height: 1.7;
+    margin: 0;
+}
+.project-step__arrow {
+    display: flex;
+    align-items: center;
+    padding-top: 22px;
+    color: #ccc;
+    font-size: 18px;
+    flex-shrink: 0;
+}
+/* ===== / PROJECT PROCESS ===== */
+
 /* ===== PROJECT SOLUTION ===== */
 .project-solution {
     background: #f8f8f8;
