@@ -3087,7 +3087,6 @@ header ul.header-menu {
     display: flex;
     flex-wrap: wrap;
     background: #1a1a1a;
-    margin: 40px -15px 0;
 }
 .project-brief__col {
     flex: 1 1 25%;
