@@ -3405,10 +3405,13 @@ header ul.header-menu {
     .project-brief__col { flex: 1 1 50%; border-bottom: 1px solid rgba(255,255,255,0.08); }
 
     /* Bento – 2 kolumny */
-    .project-bento { grid-template-columns: repeat(2, 1fr); }
-    .project-bento__tile { min-height: 180px; }
-    .project-bento__headline { font-size: 17px; }
-    .project-bento__title { font-size: 16px; }
+    .project-bento { grid-template-columns: repeat(2, 1fr); gap: 6px; }
+    .project-bento__tile { min-height: 160px; padding: 16px 14px; }
+    .project-bento__headline { font-size: 15px; }
+    .project-bento__title { font-size: 15px; margin-bottom: 6px; }
+    .project-bento__desc { font-size: 12px; }
+    .project-bento__desc--light { font-size: 12px; }
+    .project-bento__label { font-size: 10px; }
 
     /* Proces – pionowo */
     .project-steps { flex-direction: column; align-items: center; gap: 0; }
@@ -3433,7 +3436,8 @@ header ul.header-menu {
 @media (max-width: 480px) {
     /* Bento – 1 kolumna */
     .project-bento { grid-template-columns: 1fr; }
-    .project-bento__tile--img { min-height: 200px; }
+    .project-bento__tile { min-height: 140px; }
+    .project-bento__tile--img { min-height: 180px; }
 
     /* Pasek zlecenia – 1 kolumna */
     .project-brief__col { flex: 1 1 100%; }
@@ -3451,6 +3455,8 @@ header ul.header-menu {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
+    width: 100%;
+    box-sizing: border-box;
 }
 .project-bento__tile {
     min-height: 230px;
@@ -3458,6 +3464,8 @@ header ul.header-menu {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 .project-bento__tile--green {
     background: #005117;
