@@ -3394,56 +3394,6 @@ header ul.header-menu {
 }
 /* ===== / PROJECT RESULT ===== */
 
-/* ===== RESPONSIVE – BLOG REALIZACJE ===== */
-@media (max-width: 767px) {
-
-    /* Nagłówki sekcji */
-    .project-section-title { font-size: 24px; padding-bottom: 22px; margin-bottom: 36px; }
-
-    /* Ciemny pasek zlecenia – 2 kolumny */
-    .project-brief__inner { flex-wrap: wrap !important; }
-    .project-brief__col { flex: 1 1 50%; border-bottom: 1px solid rgba(255,255,255,0.08); }
-
-    /* Bento – 2 kolumny */
-    .project-bento { grid-template-columns: repeat(2, 1fr); gap: 6px; }
-    .project-bento__tile { min-height: 160px; padding: 16px 14px; }
-    .project-bento__headline { font-size: 15px; }
-    .project-bento__title { font-size: 15px; margin-bottom: 6px; }
-    .project-bento__desc { font-size: 12px; }
-    .project-bento__desc--light { font-size: 12px; }
-    .project-bento__label { font-size: 10px; }
-
-    /* Proces – pionowo */
-    .project-steps { flex-direction: column; align-items: center; gap: 0; }
-    .project-step { max-width: 100%; width: 100%; padding: 20px 16px; border-bottom: 1px solid #eee; }
-    .project-step:last-child { border-bottom: none; }
-    .project-step__arrow { display: none; }
-    .project-step__num { margin-bottom: 10px; }
-
-    /* Efekt końcowy – pionowo */
-    .project-result__inner { flex-direction: column; gap: 28px; }
-    .project-result__slider { flex: none; max-width: 100%; width: 100%; }
-    .project-result-swiper .swiper-slide img { height: 260px; }
-    .project-result__title { font-size: 20px; }
-
-    /* Sekcja miast */
-    .project-cities-section { padding: 48px 0; background-attachment: scroll; }
-
-    /* Nawigacja artykułu */
-    .article-nav { flex-direction: column; gap: 10px; }
-}
-
-@media (max-width: 480px) {
-    /* Bento – 1 kolumna */
-    .project-bento { grid-template-columns: 1fr; }
-    .project-bento__tile { min-height: 140px; }
-    .project-bento__tile--img { min-height: 180px; }
-
-    /* Pasek zlecenia – 1 kolumna */
-    .project-brief__col { flex: 1 1 100%; }
-}
-/* ===== / RESPONSIVE – BLOG REALIZACJE ===== */
-
 /* ===== PROJECT SOLUTION ===== */
 .project-solution {
     background: #fff;
@@ -3583,6 +3533,56 @@ header ul.header-menu {
     .project-brief__col { flex: 1 1 50%; border-bottom: 1px solid rgba(255,255,255,0.08); }
 }
 /* ===== / PROJECT BRIEF ===== */
+
+/* ===== RESPONSIVE – BLOG REALIZACJE ===== */
+@media (max-width: 767px) {
+
+    /* Nagłówki sekcji */
+    .project-section-title { font-size: 24px; padding-bottom: 22px; margin-bottom: 36px; }
+
+    /* Ciemny pasek zlecenia – 2 kolumny */
+    .project-brief__inner { flex-wrap: wrap !important; }
+    .project-brief__col { flex: 1 1 50%; border-bottom: 1px solid rgba(255,255,255,0.08); }
+
+    /* Bento – 2 kolumny */
+    .project-bento { grid-template-columns: repeat(2, 1fr) !important; gap: 6px; }
+    .project-bento__tile { min-height: 160px; padding: 16px 14px; }
+    .project-bento__headline { font-size: 15px; }
+    .project-bento__title { font-size: 15px; margin-bottom: 6px; }
+    .project-bento__desc { font-size: 12px; }
+    .project-bento__desc--light { font-size: 12px; }
+    .project-bento__label { font-size: 10px; }
+
+    /* Proces – pionowo */
+    .project-steps { flex-direction: column; align-items: center; gap: 0; }
+    .project-step { max-width: 100%; width: 100%; padding: 20px 16px; border-bottom: 1px solid #eee; }
+    .project-step:last-child { border-bottom: none; }
+    .project-step__arrow { display: none; }
+    .project-step__num { margin-bottom: 10px; }
+
+    /* Efekt końcowy – pionowo */
+    .project-result__inner { flex-direction: column; gap: 28px; }
+    .project-result__slider { flex: none; max-width: 100%; width: 100%; }
+    .project-result-swiper .swiper-slide img { height: 260px; }
+    .project-result__title { font-size: 20px; }
+
+    /* Sekcja miast */
+    .project-cities-section { padding: 48px 0; background-attachment: scroll; }
+
+    /* Nawigacja artykułu */
+    .article-nav { flex-direction: column; gap: 10px; }
+}
+
+@media (max-width: 480px) {
+    /* Bento – 1 kolumna */
+    .project-bento { grid-template-columns: 1fr !important; }
+    .project-bento__tile { min-height: 140px; }
+    .project-bento__tile--img { min-height: 180px; }
+
+    /* Pasek zlecenia – 1 kolumna */
+    .project-brief__col { flex: 1 1 100%; }
+}
+/* ===== / RESPONSIVE – BLOG REALIZACJE ===== */
 
 .article-nav {
     display: flex;
