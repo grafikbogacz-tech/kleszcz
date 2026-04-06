@@ -3082,6 +3082,45 @@ header ul.header-menu {
 }
 .article-author-box__info strong { font-family: 'Lato', sans-serif; font-size: 16px; color: #222; display: block; margin-bottom: 4px; }
 .article-author-box__info span { font-family: "PT Sans", sans-serif; font-size: 13px; color: #888; }
+/* ===== PROJECT BRIEF ===== */
+.project-brief {
+    display: flex;
+    flex-wrap: wrap;
+    background: #1a1a1a;
+    margin: 40px -15px 0;
+}
+.project-brief__col {
+    flex: 1 1 25%;
+    padding: 36px 28px;
+    text-align: center;
+    border-right: 1px solid rgba(255,255,255,0.08);
+}
+.project-brief__col:last-child { border-right: none; }
+.project-brief__icon {
+    font-size: 28px;
+    color: #005117;
+    margin-bottom: 12px;
+}
+.project-brief__label {
+    font-family: 'Lato', sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.45);
+    margin-bottom: 8px;
+}
+.project-brief__value {
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.4;
+}
+@media (max-width: 767px) {
+    .project-brief__col { flex: 1 1 50%; border-bottom: 1px solid rgba(255,255,255,0.08); }
+}
+/* ===== / PROJECT BRIEF ===== */
+
 .article-nav {
     display: flex;
     gap: 20px;
