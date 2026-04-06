@@ -3278,6 +3278,110 @@ header ul.header-menu {
 }
 /* ===== / PROJECT PROCESS ===== */
 
+/* ===== PROJECT RESULT ===== */
+.project-result {
+    background: #f8f8f8;
+    padding: 60px 0 70px;
+}
+.project-result__inner {
+    display: flex;
+    gap: 56px;
+    align-items: center;
+}
+.project-result__slider {
+    flex: 0 0 52%;
+    max-width: 52%;
+    position: relative;
+}
+.project-result-swiper {
+    width: 100%;
+    overflow: hidden;
+}
+.project-result-swiper .swiper-slide img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    display: block;
+}
+.project-result-swiper .swiper-button-prev,
+.project-result-swiper .swiper-button-next {
+    color: #fff;
+    background: rgba(0,81,23,0.75);
+    width: 36px;
+    height: 36px;
+    border-radius: 2px;
+}
+.project-result-swiper .swiper-button-prev:after,
+.project-result-swiper .swiper-button-next:after {
+    font-size: 14px;
+}
+.project-result-swiper .swiper-pagination-bullet-active {
+    background: #005117;
+}
+.project-result__desc {
+    flex: 1;
+}
+.project-result__title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #222;
+    margin: 0 0 16px;
+    line-height: 1.35;
+    border-bottom: none;
+    text-transform: none;
+}
+.project-result__lead {
+    font-family: "PT Sans", sans-serif;
+    font-size: 15px;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 24px;
+}
+.project-result__list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 32px;
+}
+.project-result__list li {
+    font-family: "PT Sans", sans-serif;
+    font-size: 14px;
+    color: #444;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    line-height: 1.5;
+}
+.project-result__list li .fa {
+    color: #005117;
+    margin-top: 3px;
+    flex-shrink: 0;
+}
+.project-result__cta {
+    display: inline-block;
+    background: #005117;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 13px 28px;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+.project-result__cta:hover {
+    background: #003d10;
+    color: #fff;
+    text-decoration: none;
+}
+.project-result__cta .fa {
+    margin-left: 8px;
+}
+/* ===== / PROJECT RESULT ===== */
+
 /* ===== PROJECT SOLUTION ===== */
 .project-solution {
     background: #fff;

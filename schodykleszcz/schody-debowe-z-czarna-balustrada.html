@@ -361,6 +361,50 @@
         </section>
         <!-- /SEKCJA: PROCES -->
 
+        <!-- SEKCJA: EFEKT KOŃCOWY -->
+        <section class="project-result">
+            <div class="container">
+                <h2 class="project-section-title" style="text-align:center;">Efekt końcowy</h2>
+                <div class="project-result__inner">
+
+                    <!-- SLIDER -->
+                    <div class="project-result__slider">
+                        <div class="swiper-container project-result-swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="img/blog/1/blog-1-detail1.jpg" alt="Schody dębowe z czarną balustradą – detal 1" loading="lazy">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/blog/1/blog-1-detail2.jpg" alt="Schody dębowe z czarną balustradą – detal 2" loading="lazy">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/blog/1/blog-1-detail3.jpg" alt="Schody dębowe z czarną balustradą – detal 3" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="swiper-pagination project-result-pagination"></div>
+                            <div class="swiper-button-prev project-result-prev"></div>
+                            <div class="swiper-button-next project-result-next"></div>
+                        </div>
+                    </div>
+
+                    <!-- OPIS -->
+                    <div class="project-result__desc">
+                        <h3 class="project-result__title">Schody, które stały się sercem wnętrza</h3>
+                        <p class="project-result__lead">Realizacja zakończona w terminie, zgodnie z projektem i oczekiwaniami klienta. Efekt przeszedł nasze wspólne wyobrażenia.</p>
+                        <ul class="project-result__list">
+                            <li><i class="fa fa-check"></i>Stopnie z litego dębu — olejowane, naturalnie ciepłe w dotyku</li>
+                            <li><i class="fa fa-check"></i>Balustrada ze stali z laserowym wzorem geometrycznym — czarny mat</li>
+                            <li><i class="fa fa-check"></i>Montaż na gotowej konstrukcji betonowej — precyzja co do milimetra</li>
+                            <li><i class="fa fa-check"></i>Czas realizacji: 6 tygodni od pomiaru do odbioru</li>
+                        </ul>
+                        <a href="wycena.html" class="project-result__cta">Zamów bezpłatną wycenę <i class="fa fa-arrow-right"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- /SEKCJA: EFEKT KOŃCOWY -->
+
         <!-- STOPKA ARTYKUŁU -->
         <section class="article-body" style="padding-top:40px; padding-bottom:20px;">
             <div class="container">
@@ -551,6 +595,14 @@
     <script src="js/jquery-ui.min.js"></script>
     <script src="js/simple-lightbox.min.js"></script>
     <script src="js/global.js"></script>
+    <script>
+    new Swiper('.project-result-swiper', {
+        loop: true,
+        speed: 600,
+        pagination: { el: '.project-result-pagination', clickable: true },
+        navigation: { nextEl: '.project-result-next', prevEl: '.project-result-prev' }
+    });
+    </script>
 
 </body>
 </html>
