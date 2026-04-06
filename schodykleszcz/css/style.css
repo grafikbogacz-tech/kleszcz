@@ -2957,7 +2957,7 @@ header ul.header-menu {
     font-family: "PT Sans", sans-serif;
     color: #777;
     font-size: 14px;
-    padding-bottom: 24px;
+    padding-bottom: 12px;
     border-bottom: 1px solid #eee;
     margin-bottom: 0;
 }
@@ -2986,7 +2986,7 @@ header ul.header-menu {
     .article-hero { height: 220px; }
 }
 
-.article-body { padding: 30px 0 60px 0; background: #fff; }
+.article-body { padding: 14px 0 60px 0; background: #fff; }
 .article-content { font-family: "PT Sans", sans-serif; font-size: 16px; color: #444; line-height: 1.9; }
 .article-content p { margin-bottom: 22px; }
 .article-content h2 {
@@ -3087,8 +3087,8 @@ header ul.header-menu {
     background: #1a1a1a;
 }
 .project-brief__inner {
-    display: flex;
-    flex-wrap: wrap;
+    display: flex !important;
+    flex-wrap: nowrap;
 }
 .project-brief__col {
     flex: 1 1 25%;
