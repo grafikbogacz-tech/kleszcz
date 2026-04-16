@@ -1003,15 +1003,15 @@ footer.footer-black .follow .item:before{background-color: #005117;}
 .banner-img-wrapper{position: relative; top: 0; left: 20px; width: calc(100% - 20px);}
 .banner-img-inner{padding-bottom: 127.7%;}
 .banner-img-item-1{position: absolute; width: 23%; top: 5%; left: 0;}
-.banner-img-1{padding-bottom: 500%; background-repeat: no-repeat; background-size: cover; background-position: center;}
+.banner-img-1{width: 100%; height: 100%; object-fit: cover; object-position: center;}
 .banner-img-item-2{position: absolute; width: 15%; top: 0; left: 24.8%;}
-.banner-img-2{padding-bottom: 851%; background-repeat: no-repeat; background-size: cover; background-position: center;}
+.banner-img-2{width: 100%; height: 100%; object-fit: cover; object-position: center;}
 .banner-img-item-3{position: absolute; width: 15%; top: 5%; left: 41.5%;}
-.banner-img-3{padding-bottom: 766%; background-repeat: no-repeat; background-size: cover; background-position: center;}
+.banner-img-3{width: 100%; height: 100%; object-fit: cover; object-position: center;}
 .banner-img-item-4{position: absolute; width: 15%; top: 15%; left: 58.3%;}
-.banner-img-4{padding-bottom: 700%; background-repeat: no-repeat; background-size: cover; background-position: center;}
+.banner-img-4{width: 100%; height: 100%; object-fit: cover; object-position: center;}
 .banner-img-item-5{position: absolute; width: 24.5%; top: 4%; left: 75%;}
-.banner-img-5{padding-bottom: 500%; background-repeat: no-repeat; background-size: cover; background-position: center;}
+.banner-img-5{width: 100%; height: 100%; object-fit: cover; object-position: center;}
 
 @media (min-width: 1200px) {
   .swiper-style-banner .swiper-pagination{left: 50px;}
@@ -1030,11 +1030,11 @@ footer.footer-black .follow .item:before{background-color: #005117;}
   .banner-img-wrapper{margin-top: 30px; margin-bottom: 40px;}
   .banner .text-right{text-align: center;}
   .banner-img-inner{padding-bottom: 60%;}
-  .banner-img-1{padding-bottom: 234%;}
-  .banner-img-2{padding-bottom: 400%;}
-  .banner-img-3{padding-bottom: 358%;}
-  .banner-img-4{padding-bottom: 329%;}
-  .banner-img-5{padding-bottom: 235%;}
+  .banner-img-1{width: 100%; height: 100%; object-fit: cover; object-position: center;}
+  .banner-img-2{width: 100%; height: 100%; object-fit: cover; object-position: center;}
+  .banner-img-3{width: 100%; height: 100%; object-fit: cover; object-position: center;}
+  .banner-img-4{width: 100%; height: 100%; object-fit: cover; object-position: center;}
+  .banner-img-5{width: 100%; height: 100%; object-fit: cover; object-position: center;}
   .banner article p{padding-bottom: 35px;}
 }
 /*BANNER*/
